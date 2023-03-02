@@ -71,5 +71,307 @@ ul {
 /*##### for-phone-only ##########*/
 /*############ for-tablet-portrait-up ##############*/
 /*############ for-tablet-landscape-up #############*/
+@media (min-width: 900px) {
+  body {
+    background: #080c20;
+  }
+  header {
+    padding-top: 81px;
+    padding-left: 165px;
+    padding-bottom: 114px;
+  }
+  header .logo {
+    width: 120px;
+    height: 35px;
+  }
+  main .hero {
+    height: 459px;
+    margin-bottom: 202px;
+    background-image: url(./assets/illustration-hero-left.svg), url(./assets/illustration-hero-right.svg);
+    background-position-x: -53px, 1104px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .hero .container {
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  main .hero .container::after {
+    content: "";
+    position: absolute;
+    top: -87px;
+    background-image: url(./assets/bg-hero-squiggle.svg);
+    width: 544.31px;
+    height: 377.98px;
+    z-index: -1;
+  }
+  main .hero .container h1 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 24px;
+  }
+  main .hero .container h1 span {
+    color: #3ee9e5;
+  }
+  main .hero .container p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #777f98;
+    margin-bottom: 64px;
+  }
+  main .hero .container a {
+    height: 42px;
+    width: 26px;
+    border-radius: 13px;
+  }
+  main .hero .container a .scroll {
+    height: 42px;
+    width: 26px;
+  }
+  main .grid {
+    height: 383px;
+    width: 1110px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  main .grid .grid-item .icon-container {
+    width: 160px;
+    height: 164px;
+    margin-bottom: 48px;
+    background: #093f68;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .grid .grid-item h2 {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    margin-bottom: 23px;
+  }
+  main .grid .grid-item p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #777f98;
+  }
+  main .grid .grid-item + .grid-item {
+    margin-left: 30px;
+  }
+  main .grid .two,
+  main .grid .four {
+    align-self: end;
+  }
+  main .grid .one .icon {
+    width: 88px;
+    height: 106px;
+  }
+  main .grid .two .icon {
+    width: 74px;
+    height: 89px;
+  }
+  main .grid .three .icon {
+    width: 80px;
+    height: 94px;
+  }
+  main .grid .four .icon {
+    width: 104px;
+    height: 74px;
+  }
+  main .pricing {
+    margin-top: 202px;
+  }
+  main .pricing .text {
+    margin-bottom: 72px;
+  }
+  main .pricing .text h3 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 24px;
+  }
+  main .pricing .text p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #777f98;
+    width: 530px;
+    margin: 0 auto;
+  }
+  main .pricing .table {
+    display: flex;
+    align-items: center;
+    width: 920px;
+    margin: 0 auto;
+  }
+  main .pricing .table .rectangle {
+    border-radius: 8px;
+    position: relative;
+  }
+  main .pricing .table .rectangle .icon {
+    position: absolute;
+  }
+  main .pricing .table .rectangle h4 {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 19px;
+  }
+  main .pricing .table .rectangle p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 24px;
+  }
+  main .pricing .table .rectangle .free {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 55px;
+    margin-bottom: 19px;
+  }
+  main .pricing .table .rectangle .check-and-info + .check-and-info {
+    margin-top: 12px;
+  }
+  main .pricing .table .rectangle .check-and-info {
+    height: 25px;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+  }
+  main .pricing .table .rectangle .check-and-info .icon-check {
+    height: 8.0981378555px;
+    width: 11.3626537323px;
+  }
+  main .pricing .table .rectangle .check-and-info .info {
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 15.32px;
+  }
+  main .pricing .table .one {
+    background: #093f68;
+    margin-right: 30px;
+    padding: 3.0625rem 2.375rem 3rem 2.3325rem;
+    height: 425px;
+  }
+  main .pricing .table .one .icon {
+    position: absolute;
+    top: -23px;
+    left: 38px;
+    width: 46px;
+  }
+  main .pricing .table .one h4 {
+    color: #ffffff;
+  }
+  main .pricing .table .one p {
+    color: hsla(0, 0%, 100%, 0.6);
+  }
+  main .pricing .table .one .free {
+    color: #ffffff;
+  }
+  main .pricing .table .one .check-and-info .info {
+    color: #ffffff;
+  }
+  main .pricing .table .two {
+    background: #3ee9e5;
+    padding: 3.8125rem 2.375rem 3rem 2.3325rem;
+    height: 449px;
+  }
+  main .pricing .table .two .icon {
+    position: absolute;
+    top: -22px;
+    left: 37px;
+    width: 51px;
+  }
+  main .pricing .table .two h4 {
+    color: #080c20;
+  }
+  main .pricing .table .two p {
+    color: hsla(230, 60%, 8%, 0.6);
+  }
+  main .pricing .table .two .dflex {
+    display: flex;
+    align-items: center;
+  }
+  main .pricing .table .two .free {
+    color: #080c20;
+    margin-right: 7.5px;
+  }
+  main .pricing .table .two .check-and-info .info {
+    color: #080c20;
+  }
+  footer {
+    margin-top: 151px;
+    padding-top: 52px;
+    padding-bottom: 117px;
+  }
+  footer .contain-bg {
+    padding-bottom: 42px;
+    padding-top: 52px;
+    background-image: url(./assets/bg-footer-squiggle.svg);
+    background-size: cover;
+    background-position-x: -224px;
+  }
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  footer .container h3 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 42px;
+  }
+  footer .container form input[type=email] {
+    background: #093f68;
+    border-radius: 24px;
+    width: 320px;
+    height: 48px;
+    margin-right: 16px;
+    padding-left: 18px;
+  }
+  footer .container form ::-moz-placeholder {
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 25px;
+    color: hsla(0, 0%, 100%, 0.4);
+  }
+  footer .container form ::placeholder {
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 25px;
+    color: hsla(0, 0%, 100%, 0.4);
+  }
+  footer .container form input[type=submit] {
+    width: 140px;
+    height: 48px;
+    background: #3ee9e5;
+    border-radius: 24px;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #093f68;
+  }
+}
 /*############ for-desktop-up ###########*/
 /*############ for-big-desktop-up ##########*//*# sourceMappingURL=style.css.map */
